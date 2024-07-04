@@ -1,0 +1,21 @@
+Pillars of object orientated programming (paradigm )
+
+1. Encapsulation - group related property and methods
+2. Abstraction - move some methods outside of object, simpler ui less impact on change
+3. Inheritance - eliminate redundant code, generic object whereby other objects inherit methods from that generic object
+4. Polymorphism - many forms, gets rid of switch and case instead: element.render();
+
+old school programming: Procedural programming - decoupled
+bunch of functions and variables that leads to spaghetti code, change one function then it breaks the other functions
+
+objects
+
+1.  object has more than one method - called behavior, object has behavior
+
+Factory Function
+1. creates a object
+
+Constructor Function
+
+1. creates function using this. and new
+2. function name starts with a Capital
