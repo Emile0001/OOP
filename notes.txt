@@ -19,3 +19,23 @@ Constructor Function
 
 1. creates function using this. and new
 2. function name starts with a Capital
+
+Iterating vs. Enumerating in JavaScript
+
+Iterating: This means going through a collection (like an array or object) to access each item, but you might not care about the item's position or index.
+Enumerating: This is similar to iterating, but you get both the item's value and its index or position within the collection. This is particularly handy when the index itself is important for your logic.
+Example 1: Enumerating Arrays
+
+JavaScript
+const fruits = ["apple", "banana", "cherry"];
+
+// Using a for...of loop (iteration)
+for (const fruit of fruits) {
+  console.log(fruit); // Output: apple, banana, cherry
+}
+
+// Using a for loop with indexing (enumeration)
+for (let i = 0; i < fruits.length; i++) {
+  console.log(i, fruits[i]); 
+  // Output: 0 apple, 1 banana, 2 cherry
+}
